@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="utf-8">
+		<title>Sarah Kusuma</title>
+		<link rel="stylesheet" type="text/css" href="main.css"/>
+		<style>
+			#galleria{height:400px;}
+		</style>
+
+		<!-- load jQuery -->
+		<script type="text/javascript" src="jquery-1.5.1.min.js"></script>
+
+		<!-- load Galleria -->
+		<script src="galleria-1.2.3.js"></script>
+
+    </head>
+<body>
+    <div class="content">
+		<h1>sarah kusuma</h1>
+		<p id="main_subtitle">COMMUNICATION AND EXHIBIT DESIGN</p>
+		<ul id="navlist">
+			<li id="navitem"><a href="index.html">PORTFOLIO</a>
+			<li id="navitem"><a href="resume.html">RESUME</a>
+			<li id="navitem"><a href="about.html">ABOUT + CONTACT </a>
+		</ul>
+		<!-- Adding gallery images. We use resized thumbnails here for better performance, but it’s not necessary -->
+		<div style="clear: both"></div>
+		<div id="galleria">
+			<a href="images/weather/w1.png">
+				<img src="images/weather/w1.png">
+			</a>
+			<a href="images/weather/w2.png">
+				<img src="images/weather/w2.png">
+			</a>
+			<a href="images/weather/w3.png">
+				<img src="images/weather/w3.png">
+			</a>
+			<a href="images/weather/w4.png">
+				<img src="images/weather/w4.png">
+			</a>
+			<a href="images/weather/w5.png">
+				<img src="images/weather/w5.png">
+			</a>
+			<a href="images/weather/w6.png">
+				<img src="images/weather/w6.png">
+			</a>
+			<a href="images/weather/w7.png">
+				<img src="images/weather/w7.png">
+			</a>
+			<a href="images/weather/w8.png">
+				<img src="images/weather/w8.png">
+			</a>
+			<a href="images/weather/w9.png">
+				<img src="images/weather/w9.png">
+			</a>
+		</div>
+		
+		<div id="project_bodydiv">
+			<h2>Weather System</h2>
+			<p id="project_description">
+				This is a concept for an interactive touch screen system for weather information located in an airport. This interactive system allows the user to find out the weather of their destination. The inventive circular system allows the user to choose destination location, date and time. The system takes a picture of the user and inserts the user into the destination.
+			</p>
+		</div>
+
+		<p class="cred"> Copyright Sarah Kusuma 2011.</p>
+    </div>
+    <script>
+
+    // Load the classic theme
+    Galleria.loadTheme('galleria.classic.js');
+    
+    // Initialize Galleria
+    $('#galleria').galleria({ clicknext: true });
+
+    </script>
+    </body>
+</html>

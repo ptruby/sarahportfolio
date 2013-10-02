@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="utf-8">
+		<title>Sarah Kusuma</title>
+		<link rel="stylesheet" type="text/css" href="main.css"/>
+		<style>
+			#galleria{height:400px;}
+		</style>
+
+		<!-- load jQuery -->
+		<script type="text/javascript" src="jquery-1.5.1.min.js"></script>
+
+		<!-- load Galleria -->
+		<script src="galleria-1.2.3.js"></script>
+
+    </head>
+<body>
+    <div class="content">
+		<h1>sarah kusuma</h1>
+		<p id="main_subtitle">COMMUNICATION AND EXHIBIT DESIGN</p>
+		<ul id="navlist">
+			<li id="navitem"><a href="index.html">PORTFOLIO</a>
+			<li id="navitem"><a href="resume.html">RESUME</a>
+			<li id="navitem"><a href="about.html">ABOUT + CONTACT </a>
+		</ul>
+		<!-- Adding gallery images. We use resized thumbnails here for better performance, but it’s not necessary -->
+		<div style="clear: both"></div>
+		<div id="galleria">
+			<a href="images/voting/gv1.png">
+				<img src="images/voting/gv1.png">
+			</a>
+			<a href="images/voting/gv2.png">
+				<img src="images/voting/gv2.png">
+			</a>
+			<a href="images/voting/gv3.png">
+				<img src="images/voting/gv3.png">
+			</a>
+			<a href="images/voting/gv4.png">
+				<img src="images/voting/gv4.png">
+			</a>
+			<a href="images/voting/gv5.png">
+				<img src="images/voting/gv5.png">
+			</a>
+			<a href="images/voting/gv6.png">
+				<img src="images/voting/gv6.png">
+			</a>
+		</div>
+		
+		<div id="project_bodydiv">
+			<h2>Gone Voting</h2>
+			<p id="project_description">
+				This campaign was seen as a way to motivate people to go out and help change the world. With small group of students, at the last national election we got the vote moving in a way in which people could relate. As the group leader I was responsible for directing my idea through to completion. The campaign included door hangers, stickers, tickets, and a website we created at gonevoting.com. This project was a collaboration with Amanda Henderson, Jeremy Wolf, and Jackie Weber.
+			</p>
+		</div>
+
+		<p class="cred"> Copyright Sarah Kusuma 2011.</p>
+    </div>
+    <script>
+
+    // Load the classic theme
+    Galleria.loadTheme('galleria.classic.js');
+    
+    // Initialize Galleria
+    $('#galleria').galleria({ clicknext: true });
+
+    </script>
+    </body>
+</html>

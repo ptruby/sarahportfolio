@@ -1,0 +1,52 @@
+html,body{background:#62A73B;margin:0;}
+
+#header {
+background-color: black;
+color: lightgray;
+height: 100px;
+}
+
+a {color:#646464;text-decoration:none;}
+
+#main_subtitle{margin:0 0 0 15px; float: left; color: #646464}
+
+h1{font-size:36px;font-weight:bold;color:#62A73B;margin-left:15px;margin-top:0;margin-bottom: 0;padding-top: 20px;}
+
+#navlist { list-style: none outside none; float: right; margin-top: 0; margin-bottom: 8px; margin-right: 8px; padding-left: 15px}
+#navitem { float: left; margin-left: 25px; }
+
+.content{color:#646464;background-color:#EAEAEA;font:12px/1.4 trebuchet MS,sans-serif;width:800px;margin:auto;overflow:hidden;}
+
+#portfolio_boxes ul { list-style: none outside none; padding-left: 0; margin-top: -3px; margin-left: 5px;}
+#portfolio_boxes ul li { float: left; margin: 7px;}
+#portfolio_boxes ul li a img { width: 250px; height: 200px; border-style: none; }
+
+#portfolio_boxes ul li a .desc { display: none; }
+
+#portfolio_boxes ul li a:hover .desc {
+  background: none repeat scroll 0 0 #62A73B;
+  border-top: 1px solid #999999;
+  //bottom: 20px;
+  color: #EAEAEA;
+  display: block;
+  font-size: 12pt;
+  font-style: italic;
+  margin: 0;
+  margin-top: -150px;
+  opacity: 0.9;
+  padding: 10px;
+  position: absolute;
+  width: 150px;
+  height: 40px;
+}
+
+#project_bodydiv {
+	padding: 15px;	
+	overflow: hidden;
+}
+
+#project_description { width: 514px; }
+
+
+
+.cred{font-size:10px; float:right; color: #646464}

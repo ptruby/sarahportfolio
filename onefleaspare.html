@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="utf-8">
+		<title>Sarah Kusuma</title>
+		<link rel="stylesheet" type="text/css" href="main.css"/>
+		<style>
+			#galleria{height:400px;}
+		</style>
+
+		<!-- load jQuery -->
+		<script type="text/javascript" src="jquery-1.5.1.min.js"></script>
+
+		<!-- load Galleria -->
+		<script src="galleria-1.2.3.js"></script>
+
+    </head>
+<body>
+    <div class="content">
+		<h1>sarah kusuma</h1>
+		<p id="main_subtitle">COMMUNICATION AND EXHIBIT DESIGN</p>
+		<ul id="navlist">
+			<li id="navitem"><a href="index.html">PORTFOLIO</a>
+			<li id="navitem"><a href="resume.html">RESUME</a>
+			<li id="navitem"><a href="about.html">ABOUT + CONTACT </a>
+		</ul>
+		<!-- Adding gallery images. We use resized thumbnails here for better performance, but it’s not necessary -->
+		<div style="clear: both"></div>
+		<div id="galleria">
+			<a href="images/onefleaspare/p1.png">
+				<img src="images/onefleaspare/p1.png">
+			</a>
+			<a href="images/onefleaspare/p2.png">
+				<img src="images/onefleaspare/p2.png">
+			</a>
+		</div>
+		
+		<div id="project_bodydiv">
+			<h2>One Flea Spare</h2>
+			<p id="project_description">
+				This is a poster for a student directed play at Carnegie Mellon University. The story revolves around different social class struggles. In the play, shoes represent the beginnings of change within the established structure of society for each of the characters.
+			</p>
+		</div>
+
+		<p class="cred"> Copyright Sarah Kusuma 2011.</p>
+    </div>
+    <script>
+
+    // Load the classic theme
+    Galleria.loadTheme('galleria.classic.js');
+    
+    // Initialize Galleria
+    $('#galleria').galleria({ clicknext: true });
+
+    </script>
+    </body>
+</html>
