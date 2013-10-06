@@ -18,16 +18,17 @@
     position: absolute;
     top: 10px;
     bottom: 60px;
-    left: 10px;
-    right: 10px;
+    left: 7.5px;
+    right: 7.5px;
     overflow:hidden;
+	background: #DADADA;
 }
 .galleria-thumbnails-container {
     height: 50px;
     bottom: 0;
     position: absolute;
-    left: 10px;
-    right: 10px;
+    left: 7.5px;
+    right: 7.5px;
     z-index: 2;
 }
 .galleria-carousel .galleria-thumbnails-list {
@@ -198,3 +199,5 @@
     background-image: url(classic-map.png);
     background-repeat: no-repeat;
 }
+
+
