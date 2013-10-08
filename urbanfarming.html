@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="utf-8">
+		<title>Sarah Kusuma</title>
+		<link rel="stylesheet" type="text/css" href="main.css"/>
+		<style>
+			#galleria{height:630px;}
+		</style>
+
+		<!-- load jQuery -->
+		<script type="text/javascript" src="jquery-1.5.1.min.js"></script>
+
+		<!-- load Galleria -->
+		<script src="galleria-1.2.3.js"></script>
+
+    </head>
+<body>
+    <div class="content">
+		<a id="title" href="index.html"><span id="header_firstname">sarah</span><span id="header_lastname">kusuma</span></a>
+		<div style="clear: both"></div>
+		<p id="main_subtitle"><a href="index.html">ARCHITECTURE AND DESIGN</a></p>
+		<ul id="navlist">
+			<li id="navitem"><a href="resume.html">RESUME</a>
+			<li id="navitem"><a href="about.html">ABOUT+CONTACT </a>
+		</ul>
+		<div style="clear: both"></div>
+		<div id="galleria">
+			<a href="images/urbanfarming/1.png">
+				<img src="images/urbanfarming/1.png">
+			</a>
+			<a href="images/urbanfarming/2.png">
+				<img src="images/urbanfarming/2.png">
+			</a>
+			<a href="images/urbanfarming/3.png">
+				<img src="images/urbanfarming/3.png">
+			</a>
+			<a href="images/urbanfarming/4.png">
+				<img src="images/urbanfarming/4.png">
+			</a>
+			<a href="images/urbanfarming/5.png">
+				<img src="images/urbanfarming/5.png">
+			</a>
+			<a href="images/urbanfarming/6.png">
+				<img src="images/urbanfarming/6.png">
+			</a>
+		</div>
+		
+		<div id="project_bodydiv">
+			<h2>Urban Farming + Smart Eating</h2>
+			<p id="project_description">
+				One of the major issues in Cincinnati is the growing food desert, an area with little or no access to fresh and affordable foods needed to maintain a healthy diet. This access can be interpreted in several ways: 
+				<br /><br />
+				Physical access to shops — distance, hills, poor public transit, or no car. Healthy options may not be available. 
+				<br /><br />
+				Financial access — not enough money for healthier groceries, bus fare, grocery storage space. This limits individuals to cheaper local fast food outlets.
+				<br /><br />
+				Knowledge of preparation — The consumer’s mental attitude or knowledge about nutrition and food preparation can be major barriers limiting access to fresh produce and other healthy food choices. Consumers may lack cooking knowledge or have the idea that eating a healthy diet is not important.
+				<br /><br />
+				This Environmental Learning Center focuses on the healthy food production — growing, cooking, and eating. One can  view all parts of the program from the primary promenade. Participants can also use the secondary promenade to get through the space designated by the greenhouse walls.
+			</p>
+		</div>
+
+		<p class="cred"> Copyright Sarah Kusuma 2013</p>
+    </div>
+    <script>
+
+    // Load the classic theme
+    Galleria.loadTheme('galleria.classic.js');
+    
+    // Initialize Galleria
+    $('#galleria').galleria({ clicknext: true });
+
+    </script>
+    </body>
+</html>
