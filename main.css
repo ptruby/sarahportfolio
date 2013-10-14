@@ -20,7 +20,7 @@ a {color:#484848;text-decoration:none;}
 #navlist { list-style: none outside none; float: right; margin-top: 0; margin-bottom: 7.5px; margin-right: 7.5px;}
 #navitem { float: left; margin-left: 20px; letter-spacing:2px;font-size:13px;}
 
-.content{color:#484848;background-color:#EAEAEA;font:14px/1.4 Lato,sans-serif;letter-spacing:1px;width:960px;margin:auto;padding-bottom:100px;overflow:hidden;}
+.content{color:#484848;background-color:#EAEAEA;font:13px/1.4 Lato,sans-serif;letter-spacing:1px;width:960px;margin:auto;padding-bottom:100px;overflow:hidden;}
 
 #portfolio_boxes  { margin-top: 18px;}
 #portfolio_boxes ul { list-style: none outside none; padding-left: 0; margin-top: 0px; margin-left: 0px;}
