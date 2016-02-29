@@ -53,6 +53,6 @@ a {color:#484848;text-decoration:none;}
 	overflow: hidden;
 }
 
-#project_description { width: 565px; }
+#project_description { width: 565px; margin-top: 30px; }
 
 .cred{font-size:10px; float:right; margin-right:7.5px; color: #484848; display:none;}
