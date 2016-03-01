@@ -21,7 +21,7 @@
     left: 7.5px;
     right: 7.5px;
     overflow:hidden;
-	background: #E0E0E0;
+	background: #EAEAEA;
 }
 .galleria-thumbnails-container {
     height: 50px;
@@ -198,6 +198,7 @@
 .galleria-image-nav-right {
     background-image: url(classic-map.png);
     background-repeat: no-repeat;
+    /*background: #000000 url(classic-map.png) no-repeat right top;*/
 }
 
 
